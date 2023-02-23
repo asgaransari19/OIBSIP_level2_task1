@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: auto;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  background-color: darkgrey;
+  justify-content: center;
+  text-align: center;
+}
+
+.root {
+  height: 420px;
+  width: 300px;
+  border: 1px solid #fff;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 0 auto;
+  /* background-color: rgba(149, 165, 166); */
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 0 200px black;
+}
+
+.display {
+  text-align: right;
+  align-items: center;
+  box-shadow: 0px 0px 20px 1px white inset;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 60px;
+  width: 300px;
+  background-color: gray;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  border-radius: 5px;
+}
+
+.content {
+  margin: 15px;
+  display: wrap;
+  flex-wrap: wrap;
+}
+
+button {
+  margin: 10px 0px 0px 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0px 4px 20px #fff;
+}
+
+.equal,
+.neg,
+.del,
+.plus,
+.mul,
+.dot,
+.Ac {
+  border-radius: 5px;
+  background-color: gray;
+  border: 1px solid #fff;
+  color: black;
+  font-size: 18px;
+}
+
+.equal {
+  width: 115px;
+  margin-top: 15px;
+}
